@@ -1,0 +1,48 @@
+.movieWrapper {
+    max-width: 1500px;
+    margin: auto;
+    
+    
+}
+.movieGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+.movieCards {
+    border: 2px solid #001440;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.movieCards:hover {
+    border: 2px solid #0060AA;
+    transform: scale(1.05);
+}
+
+.title {
+    color: #00308F;
+}
+
+.detailLink {
+    text-decoration: none;
+    border: 2px solid #0060AA;
+    color: #0060AA;
+    padding: 10px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 200ms;
+}
+
+.detailLink:hover{
+    color: white;
+    background-color: #0060AA; 
+}
